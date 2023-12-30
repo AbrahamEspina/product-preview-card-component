@@ -1,0 +1,9 @@
+---
+import Mobile from '../../public/image-product-mobile.jpg';
+import Desktop from '../../public/image-product-desktop.jpg';
+---
+
+<div class='md:w-1/2'>
+  <img class='w-full block md:hidden' src={Mobile.src} alt='product card component' />
+  <img class='hidden md:w-full md:rounded-l-xl md:block' src={Desktop.src} alt='product card component' />
+</div>
